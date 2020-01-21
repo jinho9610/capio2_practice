@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F9FF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="235dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/button_corner"
+        android:backgroundTint="#2699FB"
+        android:clickable="true"
+        android:text="STOP"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_jw_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jw_mid_circle" />
+
+
+    <TextView
+        android:id="@+id/tv_watch"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="xxxxxx"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_stop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
